@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form task4</title>
+    <link rel="stylesheet" href="./css/task4.css">
+</head>
+<body>
+    <fieldset id="fieldset">
+        <h1>Reservation Form</h1>
+        <form id="reservationForm" action="../index.html" method="GET">
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="arrivalDate">Arrival Date:</label>
+                <input type="date" id="arrivalDate" placeholder="YYYY-MM-DD"><br><br>
+                <label for="numNights">Nights:</label>
+                <input type="text" id="numNights" placeholder="Enter nights on digit"><br><br>
+                <label for="Adults">Adults:</label>
+                <select name="adults" id="adults">
+                    <option value="Zero">0</option>
+                    <option value="One">1</option>
+                    <option value="Two">2</option>
+                    <option value="Three">3</option>
+                    <option value="Four">4</option>
+                    <option value="Five">5</option>
+                    <option value="Six">6</option>
+                    <option value="Seven">7</option>
+                    <option value="Eight">8</option>
+                    <option value="Nine">9</option>
+                    <option value="Ten">10</option>
+                </select><br>
+                <label for="Children">Children:</label>
+                <select name="Children" id="children">
+                    <option value="Zero">0</option>
+                    <option value="One">1</option>
+                    <option value="Two">2</option>
+                    <option value="Three">3</option>
+                    <option value="Four">4</option>
+                    <option value="Five">5</option>
+                    <option value="Six">6</option>
+                    <option value="Seven">7</option>
+                    <option value="Eight">8</option>
+                    <option value="Nine">9</option>
+                    <option value="Ten">10</option>
+        </select>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="room">Room Type:</label>
+                <input type="radio" name="room" id="room">Standard
+                <input type="radio" name="room" id="room">Business
+                <input type="radio" name="room" id="room">Suite <br>        
+                <label for="bed">Bed type:</label>
+                <input type="radio" name="bed" id="bed">King
+                <input type="radio" name="bed" id="bed">Double Double <br>
+                        <input type="checkbox">Smoking
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your full name"><br><br>
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" placeholder="abcd@gmail.com"><br><br>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="999-999-9999" >
+            </fieldset>
+            <button type="submit">Submit Request</button>
+            <footer>
+                <p>&copy; "Name:Hemang Patel, Student ID:N01652658" 2024</p>
+                <a href="../Task 1/Index.html">Task1</a>&nbsp;|&nbsp;<a href="../Task 2/Index.html">Task 2</a>&nbsp;|&nbsp;<a href="../Task 3/Index.html">Task 3</a>
+                </footer>
+        </form>
+    </fieldset>
+    <script src="./js/task4.js"></script>
+</body>
+</html>
